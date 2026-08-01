@@ -39449,7 +39449,7 @@ this.cs()
 this.hy()}}
 A.Hb.prototype={
 K(a){var s=null,r=this.c,q=r.gagp(),p=t.E
-return A.kE(!0,s,A.h2(new A.i2(B.a6,s,s,A.aqq(A.hl(A.c([A.yB(A.c([new A.ca("Q",q,s),new A.ca("W",q,s),new A.ca("E",q,s),new A.ca("R",q,s),new A.ca("T",q,s),new A.ca("Y",q,s),new A.ca("U",q,s),new A.ca("I",q,s),new A.ca("O",q,s),new A.ca("P",q,s)],p),B.ad,B.aD,0),A.yB(A.c([A.h2(s,s,9.5),new A.ca("A",q,s),new A.ca("S",q,s),new A.ca("D",q,s),new A.ca("F",q,s),new A.ca("G",q,s),new A.ca("H",q,s),new A.ca("J",q,s),new A.ca("K",q,s),new A.ca("L",q,s)],p),B.ad,B.aD,0),A.yB(A.c([A.h2(s,s,28.5),new A.ca("Z",q,s),new A.ca("X",q,s),new A.ca("C",q,s),new A.ca("V",q,s),new A.ca("B",q,s),new A.ca("N",q,s),new A.ca("M",q,s),new A.Gf(r.gagd(),s),new A.FR(r.gagb(),s)],p),B.ad,B.aD,0)],p),B.bn,B.ad,B.aD)),s),s,1/0),s,s,s,s,!0,s,s,s,new A.a_M(this),s,s)}}
+return A.kE(!0,s,A.h2(new A.i2(B.a6,s,s,A.aqq(A.hl(A.c([A.yB(A.c([new A.ca("Q",q,s),new A.ca("W",q,s),new A.ca("E",q,s),new A.ca("R",q,s),new A.ca("T",q,s),new A.ca("Y",q,s),new A.ca("U",q,s),new A.ca("I",q,s),new A.ca("O",q,s),new A.ca("P",q,s)],p),B.ad,B.aD,0),A.yB(A.c([A.h2(s,s,10.5),new A.ca("A",q,s),new A.ca("S",q,s),new A.ca("D",q,s),new A.ca("F",q,s),new A.ca("G",q,s),new A.ca("H",q,s),new A.ca("J",q,s),new A.ca("K",q,s),new A.ca("L",q,s)],p),B.ad,B.aD,0),A.yB(A.c([A.h2(s,s,31.5),new A.ca("Z",q,s),new A.ca("X",q,s),new A.ca("C",q,s),new A.ca("V",q,s),new A.ca("B",q,s),new A.ca("N",q,s),new A.ca("M",q,s),new A.Gf(r.gagd(),s),new A.FR(r.gagb(),s)],p),B.ad,B.aD,0)],p),B.bn,B.ad,B.aD)),s),s,1/0),s,s,s,s,!0,s,s,s,new A.a_M(this),s,s)}}
 A.a_M.prototype={
 $2(a,b){var s,r,q
 if(!(b instanceof A.il))return B.ck
@@ -39466,7 +39466,7 @@ $S:88}
 A.ca.prototype={
 K(a){var s=null,r=A.uT(10)
 r=A.alB(s,s,A.X(a).ax.c,s,s,s,s,s,s,B.ku,s,s,B.P,B.ax,s,new A.cy(r,new A.bE(B.l,1,B.F,-1)),s,s,B.eg,s,s)
-return A.XV(A.h3(this.c,s,A.hP(s,s,s,s,s,s,s,s,s,s,s,19,s,s,B.fx,s,s,!0,s,s,s,s,s,s,s,s)),new A.a_X(this),r)}}
+return A.XV(A.h3(this.c,s,A.hP(s,s,s,s,s,s,s,s,s,s,s,21,s,s,B.fx,s,s,!0,s,s,s,s,s,s,s,s)),new A.a_X(this),r)}}
 A.a_X.prototype={
 $0(){var s=this.a
 return s.d.$1(s.c)},
@@ -39474,14 +39474,14 @@ $S:0}
 A.Gf.prototype={
 K(a){var s=null,r=A.uT(10)
 r=A.alB(s,s,A.X(a).ax.c,s,s,s,s,s,s,B.ku,s,s,B.P,B.ax,s,new A.cy(r,new A.bE(B.l,1,B.F,-1)),s,s,B.eg,s,s)
-return A.XV(A.qn(B.D9,s,22.8),new A.Yk(this),r)}}
+return A.XV(A.qn(B.D9,s,25.2),new A.Yk(this),r)}}
 A.Yk.prototype={
 $0(){return this.a.c.$0()},
 $S:0}
 A.FR.prototype={
 K(a){var s=null,r=A.uT(10)
 r=A.alB(s,s,A.X(a).ax.c,s,s,s,s,s,s,B.ku,s,s,B.P,B.ax,s,new A.cy(r,new A.bE(B.l,1,B.F,-1)),s,s,B.eg,s,s)
-return A.XV(A.qn(B.Dd,s,22.8),new A.We(this),r)}}
+return A.XV(A.qn(B.Dd,s,25.2),new A.We(this),r)}}
 A.We.prototype={
 $0(){return this.a.c.$0()},
 $S:0}
@@ -39626,7 +39626,7 @@ $0(){return A.hy(this.a,!1).cL()},
 $S:0}
 A.qq.prototype={
 K(a){var s=null,r=this.c,q=t.E
-r=A.hl(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.3",A.hP(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.aD)
+r=A.hl(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.4",A.hP(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.aD)
 return A.uz(A.c([A.oA(B.d5,new A.a_6(a),s)],q),r,!0,B.RW)}}
 A.a_6.prototype={
 $0(){return A.hy(this.a,!1).cL()},
@@ -82422,7 +82422,7 @@ B.y7=new A.A(1,-1)
 B.Nh=new A.A(22,22)
 B.Ni=new A.A(28,28)
 B.Nj=new A.A(34,22)
-B.ku=new A.A(38,38)
+B.ku=new A.A(42,42)
 B.Nl=new A.A(48,36)
 B.Nm=new A.A(48,48)
 B.y8=new A.A(64,64)
