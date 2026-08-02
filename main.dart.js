@@ -39625,7 +39625,7 @@ $0(){return A.hz(this.a,!1).cL()},
 $S:0}
 A.qq.prototype={
 K(a){var s=null,r=this.c,q=t.E
-r=A.hm(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.7",A.hQ(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.az)
+r=A.hm(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.8",A.hQ(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.az)
 return A.uA(A.c([A.oA(B.d5,new A.a_6(a),s)],q),r,!0,B.RW)}}
 A.a_6.prototype={
 $0(){return A.hz(this.a,!1).cL()},
