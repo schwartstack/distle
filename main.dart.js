@@ -23687,9 +23687,8 @@ a2D:function a2D(){},
 a2E:function a2E(){},
 a2F:function a2F(){},
 a8g:function a8g(){},
-a8f:function a8f(a,b,c){this.a=a
-this.b=b
-this.r=c},
+a8f:function a8f(a,b){this.b=a
+this.r=b},
 ox:function ox(a,b){this.a=a
 this.b=b},
 z3:function z3(a,b){this.a=a
@@ -39554,7 +39553,7 @@ o=p.a0I(j,"image/png")
 p.f=o
 p.c=v.G.URL.createObjectURL(o)
 s=3
-return A.O(l.fk(new A.a8f("http://distle.xyz","distle #"+(q.c+1)+" "+n+"/6"+m,A.c([p],t.FQ))),$async$qO)
+return A.O(l.fk(new A.a8f("distle #"+(q.c+1)+" "+n+"/6"+m+"\n\nhttp://distle.xyz",A.c([p],t.FQ))),$async$qO)
 case 3:return A.K(null,r)}})
 return A.L($async$qO,r)},
 K(a){var s=null
@@ -39564,17 +39563,17 @@ r4(a,b){return this.ad4(a,b)},
 ad4(a3,a4){var s=0,r=A.M(t.H3),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
 var $async$r4=A.N(function(a5,a6){if(a5===1)return A.J(a6,r)
 for(;;)switch(s){case 0:a1=J.bb(a4)
-a2=30*a1.gE(a4)+20
+a2=60*a1.gE(a4)+40
 $.Y()
 p=new A.kq()
 o=A.Vb(p,null)
 n=A.aT()
 n.r=($.f4.a8()?B.l:B.k).gp()
-o.ew(new A.q(0,0,170,a2),n)
-for(n=o.a,m=$.f4.a,l=0;l<a1.gE(a4);++l){k=10+30*l
+o.ew(new A.q(0,0,340,a2),n)
+for(n=o.a,m=$.f4.a,l=0;l<a1.gE(a4);++l){k=20+60*l
 j=a1.j(a4,l)
-for(i=j.length,h=k+30,g=k+15,f=0;f<i;++f){e=10+30*f
-d=e+30
+for(i=j.length,h=k+60,g=k+30,f=0;f<i;++f){e=20+60*f
+d=e+60
 $.Y()
 c=new A.hl(B.bb,B.b5,B.cz,B.cA,B.bf)
 c.r=A.auP(j[f],a3[f],!0).gp()
@@ -39597,9 +39596,9 @@ d.r=(c?B.k:B.l).gp()
 d.b=B.aF
 d.c=1
 b=d.d_()
-n.drawCircle(e+15,g,10.5,b)
+n.drawCircle(e+30,g,21,b)
 b.delete()}}}s=4
-return A.O(p.oD().Gm(170,a2),$async$r4)
+return A.O(p.oD().Gm(612,B.c.aD(a2*1.8)),$async$r4)
 case 4:s=3
 return A.O(a6.Gk(B.Dj),$async$r4)
 case 3:a0=a6
@@ -39626,7 +39625,7 @@ $0(){return A.hz(this.a,!1).cL()},
 $S:0}
 A.qq.prototype={
 K(a){var s=null,r=this.c,q=t.E
-r=A.hm(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.6",A.hQ(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.az)
+r=A.hm(A.c([A.alW(r,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com)"),A.h2(s,5,s),A.alW(r,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/)"),A.h2(s,5,s),A.alW(r,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack)"),A.h2(s,20,s),A.kp(A.arX("version 1.0.7",A.hQ(s,s,B.Ir,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s,s)],q),B.bn,B.fP,B.az)
 return A.uA(A.c([A.oA(B.d5,new A.a_6(a),s)],q),r,!0,B.RW)}}
 A.a_6.prototype={
 $0(){return A.hz(this.a,!1).cL()},
@@ -77085,8 +77084,7 @@ A.a8h.prototype={
 fk(a){return this.Vv(a)},
 Vv(a){var s=0,r=A.M(t.vS),q,p=this
 var $async$fk=A.N(function(b,c){if(b===1)return A.J(c,r)
-for(;;)switch(s){case 0:if(a.a.length===0)throw A.i(A.ci("text provided, but cannot be empty",null))
-q=p.a.fk(a)
+for(;;)switch(s){case 0:q=p.a.fk(a)
 s=1
 break
 case 1:return A.K(q,r)}})
@@ -77134,26 +77132,26 @@ case 1:return A.K(q,r)
 case 2:return A.J(o.at(-1),r)}})
 return A.L($async$fk,r)},
 y0(a){return this.akn(a)},
-akn(a){var s=0,r=A.M(t.m),q,p,o,n,m,l,k,j,i,h
+akn(a){var s=0,r=A.M(t.m),q,p,o,n,m,l,k,j
 var $async$y0=A.N(function(b,c){if(b===1)return A.J(c,r)
-for(;;)switch(s){case 0:l=a.a
-k=a.b
-j=A.c([],t.O)
-i=a.r
+for(;;)switch(s){case 0:l=A.c([],t.O)
+k=a.r
 p=0
 case 3:if(!(p<1)){s=5
-break}o=i[p]
-h=j
+break}o=k[p]
+j=l
 s=6
 return A.O(A.a8j(o,null),$async$y0)
-case 6:h.push(c)
+case 6:j.push(c)
 case 4:++p
 s=3
 break
-case 5:n=j.length!==0
-if(n)m={files:j,title:k,text:l}
-else m={title:k,text:l}
-q=m
+case 5:n=l.length===0
+if(n)throw A.i(A.ci("At least one of uri, text, or files must be provided",null))
+n=l.length
+if(n!==0)m={files:l,title:a.b}
+else{null.toString
+m={text:null}}q=m
 s=1
 break
 case 1:return A.K(q,r)}})
@@ -77251,7 +77249,6 @@ ab0(a){var s=0,r=A.M(t.a),q,p=this,o,n,m,l,k,j,i
 var $async$vo=A.N(function(b,c){if(b===1)return A.J(c,r)
 for(;;)switch(s){case 0:j=t.N
 i=A.o(j,t.z)
-i.m(0,"text",a.a)
 i.m(0,"title",a.b)
 s=3
 return A.O(p.AS(a.r,null),$async$vo)
