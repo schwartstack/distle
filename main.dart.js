@@ -25245,47 +25245,49 @@ s.toString
 s=A.p(B.iy,B.iA,s/$.aCg())
 s.toString
 return s},
-aoq(){var s=0,r=A.I(t.H),q,p,o,n,m,l,k,j,i
+aoq(){var s=0,r=A.I(t.H),q,p,o,n,m,l,k,j,i,h
 var $async$aoq=A.J(function(a,b){if(a===1)return A.F(b,r)
 for(;;)switch(s){case 0:if($.W==null)A.ar0()
 $.W.toString
 s=2
 return A.M(A.adW(),$async$aoq)
-case 2:q=new A.xF($.aj())
+case 2:q=v.G.document.querySelector('meta[name="viewport"]')
+if(q!=null)q.setAttribute("content",A.l(q.getAttribute("content"))+", viewport-fit=cover")
+p=new A.xF($.aj())
 A.aN2()
-p=A.aqJ($.aoO())
-o=$.aCj()
-o=q.w=B.i.dP(p.b.e4(o).a,864e8)
-q.x=B.H4[B.i.bl(o,844)]
-n=$.adV.a6()
-m=$.Bz.a6()
-if(m!=null&&m+1===o&&n!==o)q.z=q.gxt()+1
-else q.z=1
-o=q.w
-if(n!==o){$.adV.b=o
+o=A.aqJ($.aoO())
+n=$.aCj()
+n=p.w=B.i.dP(o.b.e4(n).a,864e8)
+p.x=B.H4[B.i.bl(n,844)]
+m=$.adV.a6()
+l=$.Bz.a6()
+if(l!=null&&l+1===n&&m!==n)p.z=p.gxt()+1
+else p.z=1
+n=p.w
+if(m!==n){$.adV.b=n
 $.mt.b=B.bo
 $.BB.b=A.c([],t.s)
-A.e3()}q.a=$.mt.a6()
-q.y=$.BB.a6()
+A.e3()}p.a=$.mt.a6()
+p.y=$.BB.a6()
 if($.W==null)A.ar0()
-o=$.W
-o.toString
-n=$.ay().gck().b
-m=t.e8
-if(m.a(n.j(0,0))==null)A.a2(A.aI('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
-l=m.a(n.j(0,0))
-l.toString
-k=o.gzd()
-j=o.id$
-if(j===$){n=m.a(n.j(0,0))
+n=$.W
 n.toString
-i=new A.Sv(B.L,n,null,A.ae())
-i.aE()
-i.Kf(null,null,n)
-o.id$!==$&&A.au()
-o.id$=i
-j=i}o.Xk(new A.ua(l,new A.JO(q,null),k,j,null))
-o.IR()
+m=$.ay().gck().b
+l=t.e8
+if(l.a(m.j(0,0))==null)A.a2(A.aI('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
+k=l.a(m.j(0,0))
+k.toString
+j=n.gzd()
+i=n.id$
+if(i===$){m=l.a(m.j(0,0))
+m.toString
+h=new A.Sv(B.L,m,null,A.ae())
+h.aE()
+h.Kf(null,null,m)
+n.id$!==$&&A.au()
+n.id$=h
+i=h}n.Xk(new A.ua(k,new A.JO(p,null),j,i,null))
+n.IR()
 return A.G(null,r)}})
 return A.H($async$aoq,r)},
 apB(a){v.G.console.error(a)
@@ -41809,7 +41811,7 @@ al(){var s=null
 return new A.Q6(A.rj(!0,s,!0,!0,s,s,!1),A.dy(s,s,B.eo,s,B.hJ,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))}}
 A.Q6.prototype={
 K(a){var s=this,r=null,q=t.D,p=A.fU(A.c([B.De,A.iM(r,B.dd,r,r,new A.ai3(a),r,r,r)],q),B.F,B.aD,0),o=s.e,n=A.apT(o,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack).",A.dy(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),m=A.dM(r,20,r),l=A.apT(o,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com).",A.dy(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),k=A.dM(r,20,r),j=A.eB("Distle is a Flutter web app created by Jonathan Schwartz, a data scientist from San Jose, California.",r,A.dy(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),i=A.dM(r,20,r)
-return A.hg(!0,r,A.vN(r,A.fA(A.c([n,m,l,k,j,i,A.apT(o,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/).",A.dy(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.dM(r,30,r),A.jG(new A.Aa("version 1.2.4",A.dy(r,r,B.Jz,r,r,r,r,r,r,r,r,10,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,r)],q),B.b3,B.en,B.aj),!0,p),r,r,r,s.d,!0,r,r,r,new A.ai4(s),r,r)}}
+return A.hg(!0,r,A.vN(r,A.fA(A.c([n,m,l,k,j,i,A.apT(o,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/).",A.dy(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.dM(r,30,r),A.jG(new A.Aa("version 1.2.6",A.dy(r,r,B.Jz,r,r,r,r,r,r,r,r,10,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,r)],q),B.b3,B.en,B.aj),!0,p),r,r,r,s.d,!0,r,r,r,new A.ai4(s),r,r)}}
 A.ai4.prototype={
 $2(a,b){var s,r
 if(!(b instanceof A.fg))return B.aI
