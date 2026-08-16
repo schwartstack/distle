@@ -41403,7 +41403,7 @@ l(){this.d.l()
 this.e.l()
 this.aI()},
 aaN(){var s,r,q,p=null,o=t.p,n=A.c([],o)
-for(s=0;s<1000;++s)B.b.O(n,A.c([new A.wr(A.ayo(s/1000),!0,new A.d_(0.37,20,p,p),p)],o))
+for(s=0;s<1000;++s)B.b.O(n,A.c([new A.wr(A.ayo(s/1000),!0,new A.d_(0.3,20,p,p),p)],o))
 n=A.dX(n,B.ep,B.Z,0)
 r=A.c([],o)
 for(s=0;s<=9;++s)B.b.O(r,A.c([A.d0("|",p,new A.y(!0,p,p,p,p,p,8,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p))],o))
@@ -41412,7 +41412,7 @@ q=A.c([],o)
 for(s=0;s<=9;++s)B.b.O(q,A.c([A.d0(""+s,p,new A.y(!0,p,p,p,p,p,12,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p))],o))
 return new A.m2(A.ed(A.c([B.Tn,B.yt,B.Tf,B.yt,n,r,A.dX(q,B.ep,B.Z,0),A.dX(A.c([A.d0("distance (in key widths)",p,A.d1(p,p,p,p,p,p,p,p,p,p,p,12,p,p,p,p,p,!0,p,p,p,p,p,p,p,p))],o),B.eo,B.Z,0)],o),B.aJ,B.u,B.Z),p)},
 K(a){var s,r=this,q=null,p=r.ga8I(),o=t.p,n=A.dX(A.c([B.E6,A.iK(q,B.db,q,q,p,q,q,q)],o),B.u,B.Z,0),m=A.c([r.aaN(),B.MR,B.MS],o),l=new A.Uv(0)
-m=A.cq(new A.yT(l,r.d,B.JX,new A.ahj(r),new A.abB(m,A.aq([null,0],t.LO,t.S)),q),250,400)
+m=A.cq(new A.yT(l,r.d,B.JX,new A.ahj(r),new A.abB(m,A.aq([null,0],t.LO,t.S)),q),250,450)
 l=A.c([],o)
 if(r.f>0){s=A.r5(q,q,A.X(a).ax.b,q,q,q,q,q,q,q,B.k,q,q,q,q,q,q,q,q,q,q)
 l.push(A.r4(A.o4(B.na,q,q),r.gabx(),s))}else l.push(B.aH)
@@ -41448,7 +41448,7 @@ ak(){var s=null
 return new A.PR(A.rb(!0,s,!0,!0,s,s,!1),A.d1(s,s,B.dd,s,B.hN,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))}}
 A.PR.prototype={
 K(a){var s=this,r=null,q=t.p,p=A.dX(A.c([B.E3,A.iK(r,B.db,r,r,new A.ahD(a),r,r,r)],q),B.u,B.Z,0),o=s.e,n=A.apm(o,"If you enjoy this game and you want to support it, you can [buy me a coffee](https://ko-fi.com/schwartstack).",A.d1(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),m=A.cq(r,20,r),l=A.apm(o,"To report a bug or for any other reason: [email me](mailto:jzs1986@gmail.com).",A.d1(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),k=A.cq(r,20,r),j=A.d0("Distle is a Flutter web app created by Jonathan Schwartz, a data scientist from San Jose, California.",r,A.d1(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),i=A.cq(r,20,r)
-return A.he(!0,r,A.vy(r,A.ed(A.c([n,m,l,k,j,i,A.apm(o,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/).",A.d1(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cq(r,30,r),A.jz(new A.zY("version 3.1.3",A.d1(r,r,B.JC,r,r,r,r,r,r,r,r,10,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,r)],q),B.aJ,B.en,B.ae),!0,p),r,r,r,s.d,!0,r,r,r,new A.ahE(s),r,r)}}
+return A.he(!0,r,A.vy(r,A.ed(A.c([n,m,l,k,j,i,A.apm(o,"Check out my [website](http://schwartstack.github.io), my [LinkedIn](http://www.linkedin.com/in/schwartstack), and my [GitHub](https://github.com/schwartstack/).",A.d1(r,r,s.a.c?B.k:B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cq(r,30,r),A.jz(new A.zY("version 3.1.4",A.d1(r,r,B.JC,r,r,r,r,r,r,r,r,10,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,r)],q),B.aJ,B.en,B.ae),!0,p),r,r,r,s.d,!0,r,r,r,new A.ahE(s),r,r)}}
 A.ahE.prototype={
 $2(a,b){var s,r
 if(!(b instanceof A.fj))return B.aK
